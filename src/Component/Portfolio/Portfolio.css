@@ -1,0 +1,41 @@
+.portfolio .container .heading {
+  text-align: center;
+}
+.portfolio .container .heading span {
+  color: #ff014f;
+}
+.portfolio .container .heading h2 {
+  color: #737373;
+  font-size: 40px;
+}
+.allBoxPortfolio {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(290px, auto));
+  gap: 30px;
+  margin-top: 50px;
+}
+.allBoxPortfolio .box {
+  background: linear-gradient(145deg, #e2e8ec, #ffffff);
+  box-shadow: 4px 4px 8px #cbcbcb, 4px 4px 8px #ffffff;
+  padding: 20px;
+  border-radius: 20px;
+  height: 100%;
+}
+.allBoxPortfolio .box .title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.allBoxPortfolio .box .title h3 {
+  color: #ff014f;
+  font-size: 13px;
+}
+.allBoxPortfolio .box h2 {
+  color: black;
+  font-size: 18px;
+  transition: 0.3s;
+  margin-top: 30px;
+}
+.allBoxPortfolio .box h2:hover {
+  color: #ff014f;
+}
